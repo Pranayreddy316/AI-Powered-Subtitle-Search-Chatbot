@@ -36,7 +36,7 @@ if os.path.exists(csv_file_path):
     chunks = text_splitter.split_documents(documents)
     
     # Set API key
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyCxsZc9U9feSGNvjP_ETw_uT_2eZ1jKsxY"
+    os.environ["GOOGLE_API_KEY"] = "Your ApI key"
     genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
     
     # Create embedding model
